@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form-object xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://7fvhz5.com1.z0.glb.clouddn.com/form-object.xsd">
+  <bean class="com.livhong.test.User">
+  	<mapping param="id" attr="id" type="int"/>
+    <mapping param="name" attr="username" type="string"/>
+  </bean>
+</form-object>
